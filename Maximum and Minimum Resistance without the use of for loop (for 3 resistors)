@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main() {
+    float r1,r2,r3,max,min;
+    printf("\nEnter Resistance of Resistor 1 ");
+    scanf("%f",&r1);
+    printf("\nEnter Resistance of Resistor 2 ");
+    scanf("%f",&r2);
+    printf("\nEnter Resistance of Resistor 3 ");
+    scanf("%f",&r3);
+    max=r1+r2+r3;
+    min=1/(1/r1+1/r2+1/r3);
+    printf("\nMaximum Resistance of 3 Resistors %f",max);
+    printf("\nMaximum Resistance of 3 Resistors %f",min);
+    return 0;}
