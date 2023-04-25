@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() {
     int i,n;
-    float r,max,min;
+    float r,max=0,min=0;
     printf("\nEnter The Number of Resistors : ");
     scanf("%d",&n);
     
