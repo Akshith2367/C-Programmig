@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main() {
+    int temp,i,arr[5];
+    for(i=0;i<5;i++) {
+        printf("Enter The Number %d : ",i+1);
+        scanf("%d",&arr[i]);}
+    for(i=0;i<5;i++) {
+        temp=arr[i];
+        arr[i]=arr[i]*arr[i];
+        printf("\nSquare of %d is %d",temp,arr[i]);}
+    return 0;}
