@@ -1,0 +1,18 @@
+#include <stdio.h>
+void find_swap(int a,int b);
+int main() {
+    int a,b;
+    printf("enter a&b");
+    scanf("%d%d",&a,&b);
+    printf("a is %d  & b is %d ",a,b);
+    find_swap(a,b);
+    printf("\na is %d  & b is %d ",a,b);
+    
+    return 0;}
+
+void find_swap(int a,int b){
+    int temp;
+    temp=a;
+    a=b;
+    b=temp;
+    printf("\na is %d  & b is %d ",a,b);}
