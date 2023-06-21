@@ -7,7 +7,6 @@ int main() {
     printf("a is %d  & b is %d ",a,b);
     find_swap(a,b);
     printf("\na is %d  & b is %d ",a,b);
-    
     return 0;}
 
 void find_swap(int a,int b){
